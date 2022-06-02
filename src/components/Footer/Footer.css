@@ -1,0 +1,78 @@
+.footer-container {
+  background: #222429 url("../../assets/footer-bg.png") center top no-repeat;
+  padding-top: 105px;
+}
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-col1-logo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.footer-col1-text {
+  color: #999b9f;
+  font-family: "Teko", sans-serif;
+  font-size: 20px;
+}
+
+.footer-signup-text {
+  font-size: 14px;
+}
+
+.footer-text-item {
+  text-decoration: none;
+  color: #999b9f;
+  font-family: "Rubik", sans-serif;
+}
+
+.footer-text-item-link:hover {
+  color: white;
+  border-bottom: 1px solid #ffaa17;
+}
+
+.footer-heading {
+  color: white;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-family: "Teko", sans-serif;
+}
+
+.newsletter-form {
+  display: flex;
+  background: #1c1e22;
+  height: 70px;
+  /* padding: 20px; */
+  align-items: center;
+  padding: 20px 10px 20px 20px;
+  border-radius: 5px;
+}
+
+.newsletter-form-control {
+  background: none;
+  border: none;
+  padding: 0px;
+  color: #999b9f;
+}
+
+.newsletter-submit-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 44px;
+  background: #ffaa17;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.footer-hr {
+  display: flex;
+  height: 0px;
+  border-top: 0.7px solid #393a3f;
+  margin-block: 30px;
+}

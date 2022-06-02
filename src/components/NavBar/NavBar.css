@@ -1,0 +1,24 @@
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  padding: 10px;
+}
+
+.dropdown-toggle:after {
+  display: none;
+}
+
+.navlinks {
+  color: white;
+}
+
+.dropdown-sub {
+  background: none;
+  border: none;
+  color: black;
+}
+
+.dropdown-sub:hover {
+  background: none;
+  border: none;
+  color: #ffaa17;
+}
